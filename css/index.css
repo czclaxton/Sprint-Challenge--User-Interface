@@ -131,7 +131,6 @@ p {
 
 .middle-content {
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
 }
 
 .middle-content .text-container {
@@ -143,7 +142,40 @@ p {
 
 .middle-content-top-div {
     display: flex;
+    justify-content: space-evenly;
 }
+
+.middle-content-bottom-div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.middle-content-top-left-div {
+    border-bottom: 1px dashed black;
+    margin-right: 10px;
+    width: 45%;
+}
+
+.middle-content-top-right-div {
+    border-bottom: 1px dashed black;
+    margin-left: 10px;
+    width: 45%;
+}
+
+.middle-content-bottom-left-div {
+    border-bottom: 1px dashed black;
+    margin-right: 10px;
+    margin-top: 50px;
+    width: 45%;
+}
+
+.middle-content-bottom-right-div {
+    border-bottom: 1px dashed black;
+    margin-left: 10px;
+    margin-top: 50px;
+    width: 45%;
+}
+
 
 .middle-content .boxes {
     display: flex;
@@ -208,6 +240,13 @@ background-color: teal;
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
+}
+.bottom-content-about .text-container-about{
+    width: 96%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
 }
 
 .bottom-content .text-container {
